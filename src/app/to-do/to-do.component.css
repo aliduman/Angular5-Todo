@@ -1,0 +1,59 @@
+button,
+button:focus, 
+input[type="checkbox"],
+input[type="checkbox"]:focus {
+    outline: none;
+}
+
+.main{
+    margin-top: 20px;
+}
+
+.add-form-container{
+    margin-bottom: 15px;
+}
+
+.to-do-list{
+    margin: 0 15px 20px 15px;
+}
+.to-do-list ul,
+.to-do-list ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.to-do-list ul li{
+    display: block;
+    padding: 3px 11px;
+    border:1px solid #d3d3d3;
+    background: #dddddd;
+    margin-bottom: 5px;
+    border-radius:4px;
+}
+.to-do-list ul li .form-check{
+    margin: 0;
+    line-height: 1.1em;
+}
+.to-do-list ul li .form-check-label{
+    font-size: 12px;
+    vertical-align: top;
+}
+.to-do-list ul li .form-check-input{
+    margin-top: 2px;
+}
+.to-do-list ul li .btn.btn-remove{
+    padding: 3px;
+    background: transparent;
+    line-height: 1em;
+    color: #db2424;
+}
+.filter-container{
+    border-top:1px solid #d3d3d3;
+    padding-top: 20px;
+    margin: 0 15px;
+    
+}
+.complete .form-check-label{
+    opacity:0.5;
+    text-decoration: line-through;
+}
